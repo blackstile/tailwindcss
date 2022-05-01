@@ -5,7 +5,7 @@
 _Ninja Food mobile screen_
 
 ![Ninja Food Mobile Screen](.git-assets/mobile.jpg)
-![Ninja Food Mobile Screen Opened Menu](/.git-assets/mobile-opened-menu.jpg)
+![Ninja Food Mobile Screen Opened Menu](.git-assets/mobile-opened-menu.jpg)
 
 _Ninja Food Small screen_
 
