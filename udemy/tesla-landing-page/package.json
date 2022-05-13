@@ -1,0 +1,23 @@
+{
+  "name": "tesla-landing-page",
+  "version": "1.0.0",
+  "description": "Project Tesla Landign Page from udemy course Tailwind CSS Beginner to Advanced 2022",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss build -i src/css/styles.css -o public/css/styles.css",
+    "watch": "tailwindcss build -i src/css/styles.css -o public/css/styles.css --watch"
+  },
+  "keywords": [
+    "tailwind",
+    "css",
+    "tailwindcss",
+    "tesla",
+    "course",
+    "udemy"
+  ],
+  "author": "William Miranda",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}

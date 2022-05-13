@@ -9,8 +9,44 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-  <h1>Tailwind Teste</h1>
+<body class="md:grid md:grid-cols-2 ">
+  <div>
+    <h1 class="text-4xl text-center sm:text-left ml-6 font-semibold mt-4">Exercise 1</h1>
+    <div class="sm:w-2/4 m-6 p-6 bg-purple-100 rounded-xl border-t-2 border-purple-900 shadow-md">
+      <h1 class="text-3xl font-bold">Tailwind CSS ❤</h1>
+      <p class="font-medium text-xl leading-6 text-gray-800">
+        Tailwind CSS is basically a utility-first CSS framework for
+        rapidly building custom user interfaces. It is a highly
+        customizable, low-level CSS framework that gives you all of the
+        building blocks you need to build bespoke designs.
+      </p>
+    </div>
+  </div>
+
+  <div>
+    <div class="sm:flex items-center justify-center">
+      <h1 class="text-4xl sm:flex-1 text-center sm:text-left ml-6  font-semibold mt-4">Exercise 2</h1>
+      <label for="dark-mode" class="text-lg font-bold mx-5 text-right flex items-center justify-end cursor-pointer">
+        <input type="checkbox" name="dark-mode" id="dark-mode" class="mr-1">
+        <span>Dark Mode</span>
+      </label>
+    </div>
+    <main class="m-4 sm:flex sm:flex-row sm:align-items:center bg-purple-100 dark:bg-purple-900 rounded-xl shadow-md border-t-2 border-purple-900 dark:border-purple-300 dark:border-t-4 mb-24">
+      <img class="w-60 h-72 hover:scale-110 justify-center mx-auto pt-3 sm:p-4 sm:rounded-3xl" src="images/v26KTO.jpg" alt="Robert Downey Jr">
+      <section class="sm:mx-5 p-4">
+        <p class="font-bold my-3 sm:text-lg lg:text-2xl from-stone-50 dark:text-white">
+          Robert Downey Jr. is an American actor and producer. His career
+          has been characterized by critical and popular success in his youth, followed by a period of substance abuse and
+          legal troubles, before a resurgence of commercial success later in his career.
+        </p>
+        <button class="bg-black text-yellow-300 py-2 px-4 rounded-md font-bold transition-all duration sm:text-lg lg:text-2xl dark:bg-yellow-300
+        sm:hover:bg-yellow-300 sm:hover:text-black dark:text-black">
+          Visit Instagram
+        </button>
+      </section>
+    </main>
+  </div>
+  <script src="js/main.js"></script>
 </body>
 
 </html>
