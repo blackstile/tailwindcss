@@ -17,7 +17,7 @@
 
 @layer components {
   .navbar{
-    @apply flex items-center justify-between w-full fixed top-0 z-10 h-[5.4rem] p-[3.2rem]
+    @apply flex items-center justify-between w-full fixed top-0 z-10 h-[5.4rem] p-[3.2rem] bg-slate-400 bg-opacity-30 shadow-lg
   }
   .nav_link {
     @apply text-2xl font-semibold text-[#181b21] mx-[0.8rem] p-[0.8rem] py-[0.4rem] rounded-[0.8rem] bg-transparent hover:bg-[#181b21] hover:bg-opacity-10 transition-all duration-300
@@ -44,7 +44,7 @@
     @apply text-2xl text-white bg-[#171a20] font-medium uppercase my-2 py-[0.4rem] px-[2.4rem] rounded-[3.2rem] w-[25.5rem] h-16 bg-opacity-80;
   }
   .inventory{
-    @apply text-[#393c41] bg-white bg-opacity-60 ml-8
+    @apply text-[#393c41] bg-white bg-opacity-60 lg:ml-8
    }
    .down_svg, .up_svg{
      @apply block w-full h-20 mx-auto absolute  top-[93%] animate-bounce;
